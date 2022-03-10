@@ -12,7 +12,7 @@ Works with or without.
 
 &nbsp;&nbsp;
 
-## Scenario 1 - run `run.py'
+## Scenario 1 - run `run.py`
 
 Works as documented above:
 ```
@@ -23,11 +23,11 @@ Or, launch configuration `Run`.
 
 &nbsp;&nbsp;
 
-## Scenario 2 - run `SiblingA/A.py'
+## Scenario 2 - run `SiblingA/A.py`
 
 Works like this:
 ```
 cd SiblingA
 python A.py
 ```
-Or, launch `RunSiblingA'.
+Or, launch `RunSiblingA` (which note - sets `cwd`)
