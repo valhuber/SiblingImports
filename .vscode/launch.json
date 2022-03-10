@@ -5,24 +5,22 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "ApiLogicServer",
-            "type": "python",
-            "request": "launch",
-            "program": "api_logic_server_run.py",
-            "redirectOutput": true,
-            "justMyCode": false,
-            "args": ["localhost", "5656"],
-            "console": "integratedTerminal"
-        },
-        {
-            "name": "Basic Web App",
+            "name": "Run",
             "type": "python",
             "request": "launch",
             "program": "run.py",
-            "args": ["localhost", "5002"],
             "redirectOutput": true,
-            "justMyCode": false,            
-            "cwd": "${workspaceFolder}/ui/basic_web_app",
+            "justMyCode": true,            
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "RunSiblingA",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/SiblingA",
+            "program": "A.py",
+            "redirectOutput": true,
+            "justMyCode": true,            
             "console": "integratedTerminal"
         },
         {
@@ -32,15 +30,6 @@
             "redirectOutput": true,
             "justMyCode": false,            
             "module": "enter-your-module-name"
-        },
-        {
-            "name": "TDD",
-            "type": "python",
-            "request": "launch",
-            "program": "test/tdd.py",
-            "redirectOutput": true,
-            "justMyCode": false,            
-            "console": "integratedTerminal"
         },
         {
             "name": "Python: Current File",
